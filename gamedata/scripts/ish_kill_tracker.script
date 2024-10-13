@@ -14,7 +14,7 @@ function add_dot(victim, killer)
     end
 
     if db.actor and killer:name() == db.actor:name() and has_pda() then
-        level.map_add_object_spot_ser(victim:id(), "deadbody_location")
+        level.map_add_object_spot_ser(victim:id(), "deadbody_location","")
     end
 end
 
